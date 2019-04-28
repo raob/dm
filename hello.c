@@ -3,6 +3,9 @@
 
 int
 main(int ac, char **av, char **ev)
+
 {
-	printf ("Hello World\n");
+	int	i = 0xdeadbeef;
+
+	printf ("Hello World (%d)\n", i);
 }
